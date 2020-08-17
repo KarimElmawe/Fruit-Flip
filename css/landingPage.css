@@ -1,0 +1,78 @@
+* {
+    Box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    background-color: rgb(211, 211, 211);
+}
+
+.back-img {
+    position: absolute;
+    z-index: -1;
+    width: 99%;
+    height: 730px;
+    top: 0;
+    opacity: 10%;
+}
+
+.container {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4%;
+}
+
+.header { 
+    font-size: 120px;
+    color: #2C551F;
+    margin-bottom: 20px;
+}
+
+.par {
+    font-size: 50px;
+    color: #162a10;
+    margin-top: 0;
+    font-family: 'Pangolin', cursive;
+}
+
+.button {
+    background-color: #ff3e3e;
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+    border: 2px solid;
+    padding: 0 25px 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #ff3e3e;
+    border: 2px solid;
+    border-color: #ff3e3e;
+}
+.contact {
+    z-index: 1;
+    display: block;
+    padding: 3% 0;
+    text-align: center;
+}
+
+.contact a {
+    color: #1b1919;
+    padding: 0 1%;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.face:hover {
+    color: #3b5998;
+}
+.linkedin:hover {
+    color: #0e76a8;
+}
+
